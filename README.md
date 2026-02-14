@@ -60,8 +60,7 @@ https://jsonplaceholder.typicode.com/posts
 * Status: 200 OK
 * JSON data retrieved successfully
 
-**Screenshot:**
-`01_get_request_200.png`
+
 
 ---
 
@@ -87,8 +86,7 @@ https://jsonplaceholder.typicode.com/posts
 
 * Status: 201 Created
 
-**Screenshot:**
-`02_post_request_201.png`
+
 
 ---
 
@@ -106,8 +104,7 @@ https://httpbin.org/basic-auth/user/passwd
 * Password: passwd
 * Result: 200 OK
 
-**Screenshot:**
-`03_auth_valid_200.png`
+
 
 ---
 
@@ -116,8 +113,7 @@ https://httpbin.org/basic-auth/user/passwd
 * Password changed
 * Result: 401 Unauthorized
 
-**Screenshot:**
-`04_auth_invalid_401.png`
+
 
 ---
 
@@ -135,9 +131,7 @@ Observation:
 * Data accessible by changing ID
 * No authorization validation
 
-**Screenshots:**
-`05_idor_post_1.png`
-`06_idor_post_2.png`
+
 
 Mapped to:
 **OWASP API1 – Broken Object Level Authorization**
@@ -161,8 +155,6 @@ Result:
 * Status: 200 OK
 * Input accepted without sanitization
 
-**Screenshot:**
-`07_injection_test.png`
 
 Mapped to:
 **OWASP API8 – Injection**
@@ -183,8 +175,7 @@ Observation:
 * No 429 Too Many Requests
 * No blocking mechanism
 
-**Screenshot:**
-`08_rate_limit_test.png`
+
 
 Mapped to:
 **OWASP API4 – Lack of Resources & Rate Limiting**
